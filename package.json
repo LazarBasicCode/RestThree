@@ -1,10 +1,9 @@
 {
   "name": "rest-api-backend",
   "version": "1.0.0",
-  "main": "api/index.js",
-  "type": "commonjs",
+  "main": "app.js",
   "scripts": {
-    "dev": "node api/index.js"
+    "start": "node app.js"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.39.5",
@@ -12,6 +11,6 @@
     "cors": "^2.8.5",
     "express": "^4.19.2",
     "jsonwebtoken": "^9.0.2",
-    "nodemailer": "^6.9.8"
+    "resend": "^3.2.0"
   }
 }
